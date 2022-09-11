@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs web page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="bg-homeBg min-h-screen dark:bg-homeBg-dark bg-no-repeat bg-center bg-cover bg-fixed md:pb-16 w-full">
+        <div class="container mx-auto width-100%">
+            <header class="flex justify-between itmes-center fixed top-0 left-0 w-full lg:static">
+                <div class="flex justify-between w-full px-4 lg:px-0 bg-[#f3f6f6] lg:bg-transparent dark:bg-black">
+                    <div class="flex justify-between w-full items-center space-x-4 lg:my-8 my-5">
+                        <a href="#" class="text-5xl font-semibold">
+                            <img src="./assets/logo.png" alt="logo" class="h-[26px] lh:h-[32px]">
+                        </a>
+                    </div>
+                </div>
+                <nav class="hidden lg:block">
+                    <ul class="flex my-12">
+                        <li>
+                            <a class="rounded-md cursor-pointer font-poppins bg-white text-gray-lite
+                                font-medium mx-2.5 flex text-xtiny py-2.5 md:px-4 xl:px-5 items-center transition-all
+                                duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425] hover:text-white  
+                                hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] dark:text-[#A6A6A6] transition-all
+                                duration-300 ease-in-out" href="./index.html">
+                                <span class="mr-2 text-xl">
+                                    <i class='bx bx-home' ></i>
+                                </span> Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./about.html" class="rounded-md curser-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex
+                            text-xtiny py-2.5 md:px-4 items-center transition-all duraton-300 rase-in-out dark:hiver:text-white 
+                            dark:bg-[#212425] hover:text-white hover:bg-white hover:bg-gradient-to-r from-[#fa5252] to-[#dd2476]
+                            dark:text-[#a6a6a6] transition-all duration-300 ease-in-out">
+                                <span class="mr-2 text-xl">
+                                    <i class='bx bx-user'></i>
+                                </span> About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./resume.html" class="rounded-md cursor-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex
+                                text-xtiny py-2.5 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out
+                                dark:hover:text-white dark:bg-[#212425] hover:text-white hover:bg-gradient-to-r from-[#fa5252]
+                                to-[#dd2476] dark:text-[#a6a6a6] transition-all duration-300 ease-in-out">
+                                <span class="mr-2 text-xl">
+                                    <i class='bx bx-notepad'></i>
+                                </span>
+                                Resume
+                            </a>
+                        </li>
+                        <li>
+                            <a class="rounded-md cursor-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex text-xtiny 
+                                py-2.5 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425]
+                                hover:text-white hover:bg-gradient-to-r from-[#fa5252] to-[#dd2476] dark:text-[#a6a6a6]transition-all 
+                                duration-300 ease-in-out" href="./works.html">
+                                <span class="mr-2 text-xl">
+                                    <i class='bx bx-shape-circle'></i>
+                                </span>
+                                Works
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./Blogs.html" class="rounded-md cursor-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex
+                                text-xtiny py-2.5 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out dark:hover:text-white
+                                text-white dark:text-white bg-gradient-to-r from-[#fa5252] to-[#dd2476]">
+                                <span class="mr-2  text-xl ">
+                                    <i class='bx bxl-blogger'></i>
+                                </span>
+                                blogs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./contact.html" class="rounded-md curser-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex
+                                text-xtiny py-2.5 md:px-4 items-center transition-all duraton-300 rase-in-out dark:hiver:text-white 
+                                dark:bg-[#212425] hover:text-white hover:bg-white hover:bg-gradient-to-r from-[#fa5252] to-[#dd2476]
+                                dark:text-[#a6a6a6] transition-all duration-300 ease-in-out">
+                                <span class="mr-2  text-xl ">
+                                    <i class='bx bxs-contact'></i>
+                                </span>
+                                Contact
+                            </a>
+                        </li>
+                        <span class="bg-white w-[40px] hover:text-white hidden h-[40px] rounded-full lg:flex justify-center items-center
+                                text-black hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer ml-2 ">
+                                <i class='bx bx-moon'></i>
+                        </span>
+                    </ul>
+                </nav>
+            </header>
+            <section class="bg-white lg:rounded-2xl dark:bg-[#111111]">
+                <div class="aos-init">
+                    <div class="container px-4 sm:px-5 md:px-10 lg:px-[60px]">
+                        <div class="py-12">
+                            <h2 class="after-effect after:left-32 mt-12 lg:mt-0">
+                                Blogs
+                            </h2>
+                            <div class="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-[40px] grid gap-x-10 gap-y-7 mb-6">
+                                <div class="p-5 rounded-lg mb-2 h-full dark:border-[#212425] dark:border-2" style="background: rgb(252,244,255);">
+                                    <div class="overflow-hidden rounded-lg">
+                                        <img class="rounded-lg w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110" src="./assets/work-img-8.jpg" alt="img">
+                                    </div>
+                                    <div class="flex mt-4 text-tiny  text-gray-lite dark:text-[#a6a6a6]">
+                                        <span>
+                                            177 April
+                                        </span>
+                                        <span class="pl-6 relative after:absolute after:h-1 after:w-1 after:bg-gray-lite after:rounded-all
+                                            after:left-2 after:top-[50%] transform after:translate-y-1/2">
+                                            Inspiration
+                                        </span>
+                                    </div>
+                                    <h3 class="text-lg font-medium dark:text-white daration-300 transition cursor-pointer mt-3 pr-4 hover:text-[#fa5252]
+                                        dark:hover:text-[#fa5252] ">
+                                        How to Own Your Audience by Creating an Email List.
+                                    </h3>
+                                </div>
+                                <div class="p-5 rounded-lg mb-2 h-full dark:border-[#212425] dark:border-2" style="background: rgb(238,251,255);">
+                                    <div class="overflow-hidden rounded-lg">
+                                        <img class="rounded-lg w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110" src="./assets/blog-img-2.jpg" alt="img">
+                                    </div>
+                                    <div class="flex mt-4 text-tiny  text-gray-lite dark:text-[#a6a6a6]">
+                                        <span>
+                                            000 April 
+                                        </span>
+                                        <span class="pl-6 relative after:absolute after:h-1 after:w-1 after:bg-gray-lite after:rounded-all
+                                            after:left-2 after:top-[50%] transform after:translate-y-1/2">
+                                            Inspiration
+                                        </span>
+                                    </div>
+                                    <h3 class="text-lg font-medium dark:text-white daration-300 transition cursor-pointer mt-3 pr-4 hover:text-[#fa5252]
+                                        dark:hover:text-[#fa5252] ">
+                                        Everything You Need to Know About Web Accessibility.
+                                    </h3>
+                                </div>
+                                <div class="p-5 rounded-lg mb-2 h-full dark:border-[#212425] dark:border-2" style="background: rgb(255,240,240);">
+                                    <div class="overflow-hidden rounded-lg">
+                                        <img class="rounded-lg w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110" src="./assets/blog-img-3.jpg" alt="img">
+                                    </div>
+                                    <div class="flex mt-4 text-tiny  text-gray-lite dark:text-[#a6a6a6]">
+                                        <span>
+                                            21 April
+                                        </span>
+                                        <span class="pl-6 relative after:absolute after:h-1 after:w-1 after:bg-gray-lite after:rounded-all
+                                            after:left-2 after:top-[50%] transform after:translate-y-1/2">
+                                            Inspiration
+                                        </span>
+                                    </div>
+                                    <h3 class="text-lg font-medium dark:text-white daration-300 transition cursor-pointer mt-3 pr-4 hover:text-[#fa5252]
+                                        dark:hover:text-[#fa5252] ">
+                                        The window know to say beside you
+                                    </h3>
+                                </div>
+                                <div class="p-5 rounded-lg mb-2 h-full dark:border-[#212425] dark:border-2" style="background: rgb(252,244,255);">
+                                    <div class="overflow-hidden rounded-lg">
+                                        <img class="rounded-lg w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110" src="./assets/blog-img-4.jpg" alt="img">
+                                    </div>
+                                    <div class="flex mt-4 text-tiny  text-gray-lite dark:text-[#a6a6a6]">
+                                        <span>
+                                            27 April
+                                        </span>
+                                        <span class="pl-6 relative after:absolute after:h-1 after:w-1 after:bg-gray-lite after:rounded-all
+                                            after:left-2 after:top-[50%] transform after:translate-y-1/2">
+                                            Inspiration
+                                        </span>
+                                    </div>
+                                    <h3 class="text-lg font-medium dark:text-white daration-300 transition cursor-pointer mt-3 pr-4 hover:text-[#fa5252]
+                                        dark:hover:text-[#fa5252] ">
+                                        Top 10 Toolkits for Deep Learning in 2021.
+                                    </h3>
+                                </div>
+                                <div class="p-5 rounded-lg mb-2 h-full dark:border-[#212425] dark:border-2" style="background: rgb(252,244,255);">
+                                    <div class="overflow-hidden rounded-lg">
+                                        <img class="rounded-lg w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110" src="./assets/blog-img-5.jpg" alt="img">
+                                    </div>
+                                    <div class="flex mt-4 text-tiny  text-gray-lite dark:text-[#a6a6a6]">
+                                        <span>
+                                            27 April
+                                        </span>
+                                        <span class="pl-6 relative after:absolute after:h-1 after:w-1 after:bg-gray-lite after:rounded-all
+                                            after:left-2 after:top-[50%] transform after:translate-y-1/2">
+                                            Inspiration
+                                        </span>
+                                    </div>
+                                    <h3 class="text-lg font-medium dark:text-white daration-300 transition cursor-pointer mt-3 pr-4 hover:text-[#fa5252]
+                                        dark:hover:text-[#fa5252] ">
+                                        How to Own Your Audience by Creating an Email List.
+                                    </h3>
+                                </div>
+                                <div class="p-5 rounded-lg mb-2 h-full dark:border-[#212425] dark:border-2" style="background: rgb(238,251,255);">
+                                    <div class="overflow-hidden rounded-lg">
+                                        <img class="rounded-lg w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110" src="./assets/blog-img-6.jpg" alt="img">
+                                    </div>
+                                    <div class="flex mt-4 text-tiny  text-gray-lite dark:text-[#a6a6a6]">
+                                        <span>
+                                            27 April
+                                        </span>
+                                        <span class="pl-6 relative after:absolute after:h-1 after:w-1 after:bg-gray-lite after:rounded-all
+                                            after:left-2 after:top-[50%] transform after:translate-y-1/2">
+                                            Inspiration
+                                        </span>
+                                    </div>
+                                    <h3 class="text-lg font-medium dark:text-white daration-300 transition cursor-pointer mt-3 pr-4 hover:text-[#fa5252]
+                                        dark:hover:text-[#fa5252] ">
+                                        Everything You Need to Know About Web Accessibility.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="overflow-hidden roundded-2xl" style="background: rgb(248,251,251);">
+                        <p class="text-center py-6 text-gray-lite dark:text-color-910">
+                            © 2022 All Rights Reserved by
+                            <a class="hover:text-[#fa5252] duration-300 transition" href="#">ib-themes</a>
+                        </p>
+                    </footer>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
